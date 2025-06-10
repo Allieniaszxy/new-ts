@@ -10,6 +10,6 @@ let secname = "jackson";
 let b = 76;
 
 function calcInterestRate(principal: number, rate: number, time: number) {
-  let simpleInterest = (principal * rate * time) / 100;
+  return (principal * rate * time) / 100;
 }
 calcInterestRate(1500, 20, 15);
